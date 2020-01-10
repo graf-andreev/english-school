@@ -1,2 +1,2 @@
 # english-school
-Landing for LevelEleven english school
+Landing page for LevelEleven english school
