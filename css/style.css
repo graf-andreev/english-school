@@ -265,7 +265,7 @@ button{
 }
 
 .time{
-    width: 140px;
+    width: 138px;
     height: 168px;
     border-radius: 8px;
     -webkit-box-align: center;
@@ -790,26 +790,6 @@ select{
     margin-bottom: 58px;
 }
 
-.name-input::-webkit-input-placeholder{
-    vertical-align: middle;
-}
-
-.name-input::-moz-placeholder{
-    vertical-align: middle;
-}
-
-.name-input:-ms-input-placeholder{
-    vertical-align: middle;
-}
-
-.name-input::-ms-input-placeholder{
-    vertical-align: middle;
-}
-
-.name-input::placeholder{
-    vertical-align: middle;
-}
-
 footer{
     height: 630px;
 }
@@ -976,14 +956,15 @@ footer{
     
     ::-webkit-scrollbar-track {
     background-color:#32312e;
-    box-shadow:0px 0px 3px #000 inset;
+    -webkit-box-shadow:0px 0px 3px #000 inset;
+            box-shadow:0px 0px 3px #000 inset;
     }
     
     ::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 5px;
     border-radius: 5px;
     background-color:#ffcb17;
-    box-shadow:0px 1px 1px #fff inset;
+    -webkit-box-shadow:0px 1px 1px #fff inset;
+            box-shadow:0px 1px 1px #fff inset;
     background-image:url(../img/59610063.png);
     background-position:center;
     background-repeat:no-repeat;
